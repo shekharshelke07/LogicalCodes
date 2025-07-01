@@ -1,7 +1,12 @@
 import Foundation
 
-var input: String = "Komal"
+/*
+ Q. Reverse the array provided.
+ */
 
+var input: String = "Welcome"
+
+// Solution 1
 //func reverseString(input: inout String) {
 //    var reversed: String = ""
 //    for char in input {
@@ -10,8 +15,7 @@ var input: String = "Komal"
 //    print(reversed)
 //}
 
-/// More efficient:
-
+// Solution 2 - More efficient
 func reverseString(input: inout String) {
     var chars = Array(input)
     var left: Int = 0

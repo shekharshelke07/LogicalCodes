@@ -1,10 +1,14 @@
 import Foundation
 
+/*
+ Q. Remove the duplicates from array provided.
+ */
+
 var array: [Int] = [6,8,9,9,0,4,8,4,0,1]
-var stringArray: [String] = ["Asian", "Europian", "Brazzilian", "Asian", "Europian"]
+var stringArray: [String] = ["Asian", "Europian", "Norveian", "Asian", "Europian"]
 var charArray = ["aa","c","b", "aa", "e","b", "a", "e"]
 
-// MARK: Solution1
+// Solution1
 // func removeDuplicates(array: inout [Int]) {
 //     var newArray: [Int] = []
     
@@ -16,12 +20,11 @@ var charArray = ["aa","c","b", "aa", "e","b", "a", "e"]
 //     array = newArray
 // }
 
-
-// MARK: Solution2
 // removeDuplicates(array: &array)
 // print(array)
 
-// MARK: Solution3
+
+// Solution 2
 extension Array where Element: Equatable
 {
     mutating func removeDuplicates()

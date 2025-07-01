@@ -1,5 +1,9 @@
 import Foundation
 
+/*
+ Q. Reverse the array provided.
+ */
+
 var input: [Int] = [0,1,2,8,-4,-9,7]
 
 func reverseTheArray(input: inout [Int]) {
