@@ -1,7 +1,7 @@
 import Foundation
 
 /*
- Q. Reverse the array provided.
+ Q. Reverse the string provided.
  */
 
 var input: String = "Welcome"

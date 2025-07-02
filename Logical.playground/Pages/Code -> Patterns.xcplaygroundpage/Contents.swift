@@ -196,7 +196,20 @@ makeIntvertedRighAngleTriangle(rows: 5)
 
 print("----------------------------")
 
-// MARK: Diamond
+// MARK: Diamond pattern
+
+/*
+     *
+    ***
+   *****
+  *******
+ *********
+  *******
+   *****
+    ***
+     *
+ */
+
 
 // Solution 1: with using String(repeating: , count: )
 
